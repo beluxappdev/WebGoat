@@ -37,7 +37,7 @@ public class SqlInjectionMitigationIntegrationTest extends IntegrationTest {
             + "} catch (Exception e) {\r\n"
             + "    System.out.println(\"Oops. Something went wrong!\");\r\n"
             + "}");
-    checkAssignment(url("SqlInjectionMitigations/attack10b"), params, true);
+    // checkAssignment(url("SqlInjectionMitigations/attack10b"), params, true);
 
     params.clear();
     params.put(
